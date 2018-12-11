@@ -1,0 +1,9 @@
+<div class="res-final">
+        <h2 class="res-head">Total Restaurants Around:{{total}}</h2>
+        <div ng-repeat="item in resultArray" value="{{item.restaurant.name}}">
+            <article class="res-texts"><h3>Restaurant-Name:<h5>{{item.restaurant.name}}</h5></h3>
+            <h3>Location:<h5>{{item.restaurant.location.address}}</h5></h3><h3>Zipcode:<h5>{{item.restaurant.location.zipcode}}</h5></h3>
+            <h3>Locality_verbose:<h5>{{item.restaurant.location.locality_verbose}}</h5></h3><h3>Rating:<h5>{{item.restaurant.user_rating.aggregate_rating}}</h5></h3>
+            <h3>View photo:<h5>{{item.restaurant.photos_url}}</h5></h3></article>
+        </div>
+</div>

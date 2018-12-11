@@ -1,0 +1,10 @@
+
+<section  class="res-cuisine">
+<h2>Select Cuisine</h2>
+<select ng-model="selectedCuisines">
+    <option ng-repeat="item in cusineName" value="{{item.cuisine.cuisine_id}}">{{item.cuisine.cuisine_name}}</option>
+</select> 
+<p>You Selected:{{selectedCuisines}}</p>
+<button type="submit" ng-click="restaurantsFinal(selectedCuisines)">submit</button>
+</section>
+

@@ -1,0 +1,76 @@
+/*SHWETA__background image*/
+.res_background{
+    background-image: url('/images/img.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*restaurant search image*/
+.res-back{
+background-repeat: no-repeat;
+height: 100px;
+border-radius: 5%;
+}
+.res-text{
+    float: right;
+    background-color:white;
+    margin-right: 10px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+/*background navbar*/
+.nav-link{
+ color:white;
+ background-color: black;
+ width:230px; 
+ border-radius: 10px;
+ text-align: center;
+ padding: 5px;
+ margin: 10px;
+}
+.nav-link:hover{
+    background-color: rgb(172, 146, 150);
+}
+/*restaurant-result.html styling*/
+#restaurant-search{
+    background-color: beige;
+}
+.form{
+    background-color:black;
+    color: white;
+    padding: 10px; 
+}
+/*restaurant-result-cuisines.html styling*/
+.res-cuisine,.res-search{
+    background-color:black;
+    width: 500px;
+    color: aliceblue;
+   padding: 10px;
+ text-align: center;
+ margin-left: 500px;
+ font-family: 'Bungee Inline', cursive;
+}
+/*restaurant-around.html styling*/
+.res-final{
+background-color:white;
+color: black;
+padding: 10px;
+font-size: 20px
+}
+/*styling of display of final-result*/
+.res-head,.res-texts{
+background-color:rgb(228, 210, 163);
+color: black!important;
+padding: 10px;
+border: 5px solid white;
+}
+/*footer styling*/
+.footer-event {
+    position:fixed;
+    bottom:0;
+    width:100%;
+    text-align: center;
+    background-color:white;
+    color:black;
+    font-size:2rem;
+}
+

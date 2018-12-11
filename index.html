@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" ng-app='restaurantApp'>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>zomato-US</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+
+</head>
+
+<body class="res_background">
+    <nav class="navbar navbar-expand-sm">
+        <ul class="navbar-nav active">
+            <li class="nav-item">
+                <a href="#!/" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+                <a href="#!/restaurant" class="nav-link">Search restaurants in city</a>
+            </li>
+            <li class="nav-item">
+                <img src="/images/restaurant1.png" alt="image" class="res-back">
+            </li>
+        </ul>
+    </nav>
+    <div ng-view></div>
+
+    <script src=" https://ajax.googleapis.com/ajax/libs/angularjs/1.7.5/angular.min.js"></script>
+    <script src="https://code.angularjs.org/1.7.5/angular-route.min.js"></script>
+    <script src="app.js"></script>
+    <script src="controller.js"></script>
+    <script src="services.js"></script>
+    <footer class="footer-event">
+            &copy 2018 Shweta
+            </footer>
+</body>
+
+</html>
